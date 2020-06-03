@@ -11,7 +11,7 @@
 # end
 
 def sum_multiples_of_divisor(num, divisor)
-  #   returns the sum of all multiples below num that are divisible by divisor
+  #   returns the sum of all numbers below num that are divisible by divisor
   #   Summation formula: (n*(n + 1))/2
 
   limit = num - 1
