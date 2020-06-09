@@ -1,14 +1,9 @@
 # frozen_string_literal: true
 
-# def sum_multiples_of_3_and_5(num)
-#   # Subtract 1 to remain below input
-#   top = num - 1
-#   sum = 0
+# If we list all the natural numbers below 10 that are multiples of 3 or 5, we
+# get 3, 5, 6 and 9. The sum of these multiples is 23.
 
-#   (0..top).each { |i| sum += i if (i % 3).zero? || (i % 5).zero? }
-
-#   sum
-# end
+# Find the sum of all the multiples of 3 or 5 below 1000.
 
 def sum_multiples_of_divisor(num, divisor)
   #   returns the sum of all numbers below num that are divisible by divisor
